@@ -22,7 +22,6 @@ private var topPath: some View {
         let height = geometry.size.height
         let size = min(width, height)
         let thirdPath = size / 3
-        //            let minStep = size / 60
         let popularSize = size / 10
         let middle = size / 2
         let smallSize = thirdPath * 1.6
@@ -104,7 +103,6 @@ private var bottomPath: some View {
         let thirdPath = size / 3
         let minStep = size / 60
         let popularSize = size / 10
-        //            let middle = size / 2
         let smallSize = thirdPath * 1.6
         
         Path { path in
